@@ -118,8 +118,6 @@ def update_database():
     parsing()
 
 
-update_database()
-
 while True:
     update_database()
     time.sleep(1800)
